@@ -10,12 +10,18 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.15.6",
+    "@mui/lab": "^5.0.0-alpha.162",
+    "@mui/material": "^5.15.6",
     "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.2",
     "framer-motion": "^10.18.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "saas": "^1.0.0",
+    "styled-components": "^6.1.8",
     "test": "^3.3.0"
   },
   "devDependencies": {

@@ -1,11 +1,12 @@
 import "./app.scss";
 // import Contact from "./components/contact/Contact";
-// import Cursor from "./components/cursor/Cursor";
+import Works from "./components/Works/Works";
+import Project from "./components/projects/Project_Main";
 import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
-// import Portfolio from "./components/portfolio/Portfolio";
-// import Services from "./components/services/Services";
+import Experience from "./components/experience/Experience";
+import About from "./components/about/About";
 
 const App = () => {
   return (
@@ -17,17 +18,22 @@ const App = () => {
       <section id="About">
       <Parallax type="services" />
       </section>
-      <section id='skills'>
-        skills
+      <section>
+      <About/>
       </section>
-      <section id='Projects'>
-        proejcts
-      </section>
-      <section id='experience'>
+      <section id='Experience'>
         <Parallax/>
       </section>
+      <section>
+<Experience/>
+      </section>
+      <section id="Projects">
+      </section>
+     <Works/>
+     <section id="Display">
+        <Project/>
+     </section>
       <section id='contact Me'>
-        memememmemmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmmm
       </section>
     </div>
   );
