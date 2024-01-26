@@ -24,6 +24,7 @@
       align-items: center;
       margin-top: 70px;
     }
+    
 
     h1 {
       font-size: 100px;
@@ -37,7 +38,11 @@
     span {
       font-weight: 300;
     }
+    .social {
+      display: flex;
+      gap: 20px;
   }
+}
 
   .formContainer {
     flex: 1;

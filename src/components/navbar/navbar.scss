@@ -14,18 +14,18 @@
       font-size: 1.5rem;
     }
 
-    // @include mobile {
-    //   justify-content: flex-end;
-    //   padding: 20px;
-    // }
+    @include mobile {
+      justify-content: flex-end;
+      padding: 20px;
+    }
 
-    // span {
-    //   font-weight: bold;
+    span {
+      font-weight: bold;
 
-    //   @include mobile {
-    //     display: none;
-    //   }
-    // }
+      @include mobile {
+        display: none;
+      }
+    }
     .social {
       display: flex;
       gap: 20px;

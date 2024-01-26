@@ -60,6 +60,26 @@ const Contact = () => {
           <h2>Mail</h2>
           <span>rashiarora12122001@gmail.com</span>
         </motion.div>
+        <motion.div className="item" variants={variants}>
+          <h2>Socials</h2>
+        </motion.div>
+        <motion.span
+          initial={{ opacity: 0, scale: 0.5 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.5 }}
+        >
+        <div className="social">
+          <a href="https://www.instagram.com/rashiiusa/">
+            <img src="/instagram.png" alt="" />
+          </a>
+          <a href="https://github.com/rashi12122001">
+            <img src="/github.png" alt="" />
+          </a>
+          <a href="https://www.behance.net/rashiarora6">
+            <img src="/behance.png" alt="" />
+          </a>
+        </div>
+        </motion.span>
       </motion.div>
       <div className="formContainer">
         <motion.div
