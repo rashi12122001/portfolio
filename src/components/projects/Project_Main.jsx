@@ -136,10 +136,15 @@ const Project_info = ({openModal,setOpenModal}) => {
             <ToggleButton value="Design" onClick={() => setToggle('Design')}>DESIGNS</ToggleButton>
           }
           <Divider />
-          {toggle === 'machine learning' ?
+          {toggle === 'DBMS' ?
             <ToggleButton active value="DBMS" onClick={() => setToggle('DBMS')}>DBMS</ToggleButton>
             :
             <ToggleButton value="DBMS" onClick={() => setToggle('DBMS')}>DBMS</ToggleButton>
+          }
+          {toggle === 'Others' ?
+            <ToggleButton active value="Others" onClick={() => setToggle('Others')}>Others</ToggleButton>
+            :
+            <ToggleButton value="Others" onClick={() => setToggle('Others')}>Others</ToggleButton>
           }
         </ToggleButtonGroup>
         <CardContainer>

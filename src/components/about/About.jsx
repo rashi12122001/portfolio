@@ -60,7 +60,7 @@ const Services = () => {
         </a>
         </motion.div>
         <motion.div
-          className="box"
+          className="box skills"
         >
              <h2>Skills</h2>
              <h3>Web Development</h3>
